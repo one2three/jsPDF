@@ -3,7 +3,7 @@
   "version": "1.1.135",
   "homepage": "https://github.com/mrrio/jspdf",
   "description": "PDF Document creation from JavaScript",
-  "main": "dist/jspdf.min.js",
+  "main": "jspdf.js",
   "moduleType": [
     "amd",
     "globals"
@@ -16,7 +16,6 @@
     "**/.*",
     "libs",
     "CNAME",
-    "jspdf.js",
     "examples/jspdf.PLUGINTEMPLATE.js",
     "todo.txt",
     "wscript.py",
