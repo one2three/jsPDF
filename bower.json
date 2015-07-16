@@ -3,7 +3,24 @@
   "version": "1.1.135",
   "homepage": "https://github.com/mrrio/jspdf",
   "description": "PDF Document creation from JavaScript",
-  "main": "jspdf.js",
+  "main": [
+    "jspdf.js",
+    "plugins/addhtml.js",
+    "plugins/addimage.js",
+    "plugins/annotations.js",
+    "plugins/autoprint.js",
+    "plugins/canvas.js",
+    "plugins/cell.js",
+    "plugins/context2d.js",
+    "plugins/from_html.js",
+    "plugins/javascript.js",
+    "plugins/outline.js",
+    "plugins/png_support.js",
+    "plugins/split_text_to_size.js",
+    "plugins/standard_fonts_metrics.js",
+    "plugins/svg.js",
+    "plugins/total_pages.js"
+  ],
   "moduleType": [
     "amd",
     "globals"
